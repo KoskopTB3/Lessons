@@ -1,0 +1,151 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url('../fonts/Larsseit/larsseit_regular.woff2') format('woff2'),
+		 url('../fonts/Larsseit/Larsseit-Regulart.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url('../fonts/Larsseit/Larsseit-Medium.woff2') format('woff2'),
+		 url('../fonts/Larsseit/Larsseit-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url('../fonts/Larsseit/Larsseit-Bold.woff2') format('woff2'),
+		 url('../fonts/Larsseit/Larsseit-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/Lato-Black.woff2') format('woff2'),
+		 url('../fonts/Lato/Lato-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/Lato-Italic.woff2') format('woff2'),
+		 url('../fonts/Lato/Lato-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/Lato-Bold.woff2') format('woff2'),
+		 url('../fonts/Lato/Lato-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/Lato-Medium.woff2') format('woff2'),
+		 url('../fonts/Lato/Lato-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/Lato-Regular.woff2') format('woff2'),
+		 url('../fonts/Lato/Lato-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body{
+	font-family: "Lato", serif;
+}
+
+h1{
+	font-family: "Roboto" ,serif;
+	font-weight: 900;
+	color: rgb(8, 156, 15);
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+h2{
+	font-family: "Lato", serif;
+	font-size: 30px;
+	font-weight: 900;
+	color: brown;
+}
+
+
+.header-text p{
+	color: rgb(25, 94, 94);
+} 
+
+.header-text > p + *{
+	color: aqua;
+}
+
+h2.kharkov-is {
+	color: blue;
+}
+
+.list-items {
+	font-style: italic;
+	font-weight: 700;
+	color: chocolate;
+}
+.list-links {
+	color: blueviolet;
+	text-decoration: underline;
+}
+
+.middle-text {
+}
+.infrastructure {
+}
+.international h2{
+	color: chartreuse;
+	font-family: "Larsseit", serif;
+	font-weight: 400;
+
+}
+
+.architecture p{
+	color: red;
+}
+
+.culture span{
+	color: green;
+}
+
+
+.up{
+	color: blue;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.list ol li{
+	color: rgb(100, 0, 22);
+}
