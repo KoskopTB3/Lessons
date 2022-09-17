@@ -1,0 +1,201 @@
+/* &display=swap&subset=cyrillic-ext */
+/* 
+font-family: "Reem Kufi Ink", sans-serif;
+font-family: "FFF Dreamer", sans-serif;
+font-weight: 700;
+font-family: "Intro Rust Base", sans-serif;
+font-family: "Oswald", sans-serif;
+ */
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Oswald:regular,700&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Reem+Kufi+Ink:regular&display=swap");
+
+
+@font-face {
+	font-family: 'FFF Dreamer';
+	src: url('../fonts/FFFDreamer.woff2') format('woff2'),
+		 url('../fonts/FFFDreamer.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Intro Rust Base';
+	src: url('../fonts/IntroRust-Base.woff2') format('woff2'),
+		 url('../fonts/IntroRust-Base.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	}
+
+/* ================================================= */
+
+body{
+	font-family: "Reem Kufi Ink", sans-serif;
+}
+
+.menu{
+	max-width: 700px;
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	white-space: nowrap;
+	color: rgba(165, 42, 42, 0.699);
+	background-color: rgba(17, 207, 112, 0.342);
+	text-decoration: underline;
+	margin-bottom: 30px;
+	
+}
+
+.list{
+	color: blueviolet;
+	font-family: "FFF Dreamer", sans-serif;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.list-next{
+	color: aquamarine;
+		font-size: 10px;
+	
+}
+
+/* ================================================= */
+
+.text-align {
+	background-color: rgba(108, 106, 233, 0.753);
+	padding: 50px;
+	margin-bottom: 30px;
+}
+.right {
+	text-align: right;
+	color: rgb(192, 11, 138);
+	margin-bottom: 10px;
+}
+.left {
+	margin-bottom: 10px;
+	
+}
+.center {
+	text-align: center;
+	color: aqua;
+	margin-bottom: 10px;
+}
+.justify {
+	text-align: justify;
+	color: chartreuse;
+}
+
+/* =============================================== */
+
+.text-shadow {
+	background-color: rgb(0, 255, 42);
+	margin-bottom: 60px;
+}
+.shadow {
+	font-family: "FFF Dreamer", sans-serif;
+	color: rgb(210, 30, 165);
+	text-shadow: 0px 0px 5px rgb(255, 255, 255);
+	line-height: 1.5;
+
+}
+.multishadow {
+	max-width: 1000px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: rgb(129, 129, 129);
+	text-shadow: 5px 3px 0px rgb(19, 18, 18), 8px 3px 5px rgb(255, 255, 255) ;
+	font-size: 100px;
+	background-color: rgb(179, 255, 0);
+	text-align: center;
+	margin: 50px 50px 30px 10px;
+	padding: 20px 100px 100px;
+}
+
+/* ======================================================= */
+
+.text-decoration{
+	background-color: rgb(0, 153, 255);
+	margin-bottom: 30px;
+}
+
+.underline{
+	color: aliceblue;
+	text-decoration: underline;
+	line-height: 1.5;
+	text-transform: capitalize;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+.line-through{
+color: brown;
+text-decoration: line-through;
+line-height: 1.5;
+text-transform: uppercase;
+margin-bottom: 30px;
+padding: 0px 50px 0px;
+}
+
+.overline{
+	text-decoration: overline;
+color: burlywood;
+line-height: 1.5;
+text-transform: lowercase;
+text-align: right;
+padding: 0px 50px 0px;
+}
+
+/* ============================================================== */
+
+.spacing{
+	background-color: rgba(223, 47, 179, 0.534);
+max-width: 500px;
+margin-left: 50px;
+padding: 30px 80px;
+margin-bottom: 50px;
+}
+
+.letter-spacing {
+	font-family: "Oswald", sans-serif;
+	line-height: 1.5;
+	letter-spacing: 10px;
+	text-shadow: 0 0 10px rgb(255, 255, 255);
+	text-align: center;
+	margin-bottom: 30px;
+	
+}
+.letter-spacing span{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 2;
+	letter-spacing: 20px;
+	color: aqua;
+}
+
+.word-spacing {
+	color: aliceblue;
+	line-height: 2;
+	word-spacing: 10px;
+	margin-bottom: 20px;
+}
+
+
+.picture{
+	margin-bottom: 30px;
+}
+
+.up{
+	font-family: "Intro Rust Base", sans-serif;
+	color: blue;
+	text-decoration: underline;
+	text-transform: uppercase;
+	background-color: rgb(27, 151, 155);
+	line-height: 1.5;
+}
+
+
