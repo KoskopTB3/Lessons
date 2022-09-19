@@ -1,0 +1,217 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900,&display=swap");
+
+/* ======================================================= */
+.content{
+	max-width: 810px;
+	margin: 0 auto;
+	font-family: "Lato", sans-serif;
+	color: rgba(66, 69, 81, 1);
+	
+}
+
+.top-header {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	margin-top: 30px;
+	margin-bottom: 92px;
+	color: rgba(30, 33, 44, 1);
+}
+
+.picture {
+	max-width: 810px;    
+	/* обязательно делать ограничение ширины по родительскому блоку, если фото большего размера */
+	margin-bottom: 60px;
+}
+
+.text-block-1 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 24px;
+	color: rgba(30, 33, 44, 1);
+}
+.text-block-2 {
+	line-height: 1.6;
+	margin-bottom: 48px;
+}
+.text-block-3 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 48px;
+	padding-left: 58px;
+	color: rgba(30, 33, 44, 1);
+}
+.text-block-4 {
+	margin-bottom: 24px;
+}
+.list {
+	padding-left: 32px;
+	line-height: 1.6;
+	margin-bottom: 24px;
+}
+.list-items li{
+	margin-bottom: 4px;
+}
+
+.text-block-5 {
+	line-height: 1.6;
+	margin-bottom: 50px;
+}
+/* ========================================================== */
+
+
+.home-content{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.inline-block{
+	text-align: center;
+	font-size: 0px;
+	margin-bottom: 30px;
+	white-space: nowrap;
+}
+
+.item{
+	
+	font-size: 20px;
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	background-color: rgb(13, 153, 99);
+	margin-right: 20px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	outline: 2px dashed yellow;
+}
+
+.block-border {
+	background-color: rgb(16, 255, 36);
+	padding: 40px 40px;
+	box-shadow: 0px 0px 20px rgb(13, 153, 99), inset 10px 10px 50px rgb(234, 238, 8);
+	margin-bottom: 50px;
+}
+.border-items {
+	height: 300px;
+	background-color: rgb(218, 22, 218);
+	border-radius:30% 70% 70% 30% / 56% 60% 40% 44%;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0px rgb(255, 255, 255);
+	overflow: hidden;
+	outline: 5px solid coral;
+	box-shadow: inset 10px 5px 20px rgb(255, 0, 149);
+}
+.border-solid {
+	margin: 0 auto;
+	background-color: rgb(255, 238, 0);
+	height: 100px;
+	width: 100px;
+	border: 5px solid #00e1ff;
+	border-radius: 50%;
+}
+.border-dotted {
+	display: inline-block;
+	background-color: rgb(113, 29, 192);
+	height: 100px;
+	width: 100px;
+	margin-right: 900px;
+	border: 10px dotted #e5ff00;
+}
+.border-dashed {
+	display: inline-block;
+	background-color: rgb(169, 235, 17);
+	height: 100px;
+	width: 100px;
+	border: 15px dashed #000000;
+	
+}
+
+.invisible {
+	max-width: 700px;
+	margin: 0 auto;
+}
+.display {
+	text-align: center;
+	background-color: rgb(16, 83, 92);
+	color: azure;
+	display: none;
+}
+.opacity {
+	margin-bottom: 30px;
+	background-color: rgb(16, 83, 92);
+	color: azure;
+	font-size: 30px;
+	text-align: justify;
+	padding: 20px 50px;
+	opacity: 0.1;
+	border-radius: 30px;
+	border: 10px solid #000;;
+}
+.visibilty {
+	visibility: hidden;
+	margin-bottom: 30px;
+	background-color: rgb(16, 83, 92);
+	color: azure;
+	font-size: 30px;
+	text-align: justify;
+	padding: 20px 50px;
+	border-radius: 30px;
+	border: 10px solid rgb(217, 255, 0);;
+}
+
+.visibilty a{
+	color: blue;
+	text-decoration: underline;
+}
+
+.class-1{
+	max-width: 1000px;
+	background-color: rgb(107, 105, 105);
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0px;
+	opacity:	0.5;
+	margin-bottom: 30px;
+}
+.subclass-2{
+	display: inline-block;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(255, 208, 0);
+
+}
+.subclass-3{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(128, 12, 112);
+}
+
+
+.top{
+	text-align: center;
+}
+
+.up {
+	display: inline-block;
+	padding: 10px 50px;
+	font-size: 30px;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	color: rgb(255, 255, 255);
+	background-color: rgb(57, 21, 185);
+	border-radius: 20px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-bottom: 30px;
+	
+}
