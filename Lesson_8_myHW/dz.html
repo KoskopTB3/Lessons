@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 8 pseudo class & elements</title>
+</head>
+
+<body>
+	<header>
+
+	</header>
+	<main class="page">
+		<div class="pseudoclass">
+			<div class="pseudoclass__container">
+				<div class="line">
+					<p>Псевдоклассы состояния</p>
+				</div>
+				<ul id="off-color" class="links">
+					<li>
+						<a id="hover-color" href="#" class="hover">hover</a>
+					</li>
+					<li>
+						<a href="#" class="active">active</a>
+					</li>
+					<li>
+						<a href="#" class="visited">visited</a>
+					</li>
+					<li>
+						<a href="#" class="focus">focus</a>
+					</li>
+					<li>
+						<a href="#hover-color" class="target">target on</a>
+					</li>
+					<li>
+						<a href="#off-color" class="target-off">target off</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="pseudoclass-in-code">
+			<div class="pseudoclass-in-code__container">
+				<div class="line">
+					<p>Псевдоклассы положения в коде</p>
+				</div>
+				<div class="all-pseudo">
+					<div class="first-child">
+
+						<p>#1 Я :first-child</p>
+						<p>#2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, et!</p>
+						<p>#3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, et!</p>
+					</div>
+
+					<div class="last-child">
+						<p>#1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, et!</p>
+						<p>#2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, et!</p>
+						<p>#3 Я :last-child </p>
+					</div>
+
+					<div class="first-of-type">
+						<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptates distinctio fuga
+							delectus sint, minus sunt quia ut, fugiat voluptatum dicta eos animi dolores impedit voluptatibus
+							provident reiciendis! Necessitatibus, facere!</span>
+						<p>#1 Я first-of-type </p>
+						<p>#2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, et!</p>
+						<p>#3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, et!</p>
+					</div>
+
+					<div class="last-of-type">
+						<p>#1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, et!</p>
+						<p>#2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, et!</p>
+						<p>#3 Я last-of-type</p>
+						<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda consequatur aspernatur
+							corrupti esse qui mollitia maiores repellendus quidem iste vero distinctio eveniet, voluptatum sunt
+							dolore in libero animi perspiciatis maxime.</span>
+					</div>
+
+					<div class="nth-child">
+						<p>#1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, et!</p>
+						<span>#2 nth-of-type</span>
+						<p>#3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, et!</p>
+					</div>
+
+					<div class="nth-child-odd">
+						<p>#1 Я nth-child-odd</p>
+						<p>#2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, et!</p>
+						<p>#3 Я nth-child-odd</p>
+					</div>
+
+					<div class="nth-of-type">
+						<p>#1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, et!</p>
+						<span>#2 lorem</span>
+						<p>№3 Я p:nth-of-type (2)</p>
+						<p>#4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, et!</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="pseudoelements">
+			<div class="pseudoelements__container">
+				<div class="line">
+					<p>псевдоэлементы</p>
+				</div>
+				<div class="all-pseudoelements">
+					<div class="first-line">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nihil voluptatum
+							reprehenderit,
+							facere vero cumque perspiciatis sequi totam quam aliquid inventore id nam rerum quasi
+							natus ratione
+							commodi quod soluta!</p>
+						<p>Я - p:nth-of-type(2):first-line</p>
+					</div>
+					<div class="first-letter">
+						<p>first-letter <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magni
+							libero,
+							facere enim fuga nam voluptate neque quas modi soluta tempora quibusdam at, doloribus reiciendis
+							quod ratione hic voluptatibus ut.</p>
+					</div>
+					<div class="before">
+						Я блок
+					</div>
+					<div class="after">Я блок</div>
+
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="list-pseudo">
+			<div class="list-pseudo__container">
+				<div class="line">
+					<p>Список с псевдоэлементами</p>
+				</div>
+				<div class="pseudo-list">
+					<ul class="pseudo-items">
+						<li> <a href="#">Пункт №1</a></li>
+						<li><a href="#">Пункт №2</a></li>
+						<li><a href="#">Пункт №3</a>
+							<ul>
+								<li><a href="#">Подпункт №1</a>
+									<ul>
+										<li><a href="#">подпод пункт №1</a></li>
+										<li><a href="#">подпод пункт №2</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Подпункт №2</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Пункт №4</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+
+	</footer>
+</body>
+
+</html>
