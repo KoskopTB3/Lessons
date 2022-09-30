@@ -566,7 +566,7 @@ h4{
 	/* ================ game ================ */
 
 .game__container{
-	/* height: 500px; */
+	margin-bottom: 50px;
 	
 }
 
@@ -661,7 +661,7 @@ h4{
 
 .block-10{
 	margin-top: -230px;
-	width: 20px;
+	width: 6px;
 	height: 230px;
 	background-color: rgb(89, 91, 216);
 	margin-left: 330px;
