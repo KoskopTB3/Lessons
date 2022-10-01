@@ -1,0 +1,120 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900,&display=swap");
+
+/* ======================================================= */
+
+body {
+	font-family: "Lato", sans-serif;
+	color: rgba(66, 69, 81, 1);
+}
+
+
+
+[class*="__container"]{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.colors{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+/* =============== color red ============== */
+ul li:nth-child(1){
+	margin: 0 auto;
+	background-color: rgb(243, 7, 7);
+	max-width: 300px;
+	padding: 20px 0 20px 0;
+	border-radius: 20px;
+}
+
+ul li:hover:nth-child(1)::after{
+	content: "Color red - content";
+	display: block;
+	margin: 0 auto;
+	background-color: rgb(255, 255, 255);
+	max-width: 300px;
+	padding: 20px 0;
+	border-radius: 0 0 20px 20px;
+	border: 2px solid red;
+	margin-top: 20px;
+}
+
+ul li:hover:nth-child(1):not(:last-child){
+padding-bottom: 0px;
+}
+
+
+/* =============== color green ============== */
+
+ul li:nth-child(2){
+	margin: 0 auto;
+	background-color: rgb(23, 202, 23);
+	max-width: 300px;
+	padding: 20px 0 20px 0;
+	border-radius: 20px;
+}
+
+ul li:hover:nth-child(2)::after{
+	content: "Color green - decor";
+	display: block;
+	margin: 0 auto;
+	background-color: rgb(255, 255, 255);
+	max-width: 300px;
+	padding: 20px 0;
+	border-radius: 0 0 20px 20px;
+	border: 2px solid rgb(23, 202, 23);
+	margin-top: 20px;
+}
+
+ul li:hover:nth-child(2):not(:last-child){
+padding-bottom: 0px;
+}
+
+/* =============== color blue ============== */
+
+ul li:nth-child(3){
+	margin: 0 auto;
+	background-color: rgb(23, 56, 202);
+	max-width: 300px;
+	padding: 20px 0 20px 0;
+	border-radius: 20px;
+}
+
+ul li:hover:nth-child(3)::after{
+	content: "Color blue - icon";
+	display: block;
+	margin: 0 auto;
+	background-color: rgb(255, 255, 255);
+	max-width: 300px;
+	padding: 20px 0;
+	border-radius: 0 0 20px 20px;
+	border: 2px solid rgb(23, 56, 202);
+	margin-top: 20px;
+}
+
+ul li:hover:nth-child(3):last-child{
+padding-bottom: 0px;
+}
+
+/* ============================================= */
+
+
+ul li:not(:last-child){
+	margin-bottom: 20px;
+}
+
+
+.picture{
+	margin: 0 auto;
+	
+}	
+.picture img{
+	max-width: 100%;
+}
