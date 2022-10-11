@@ -1,0 +1,20 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900,&display=swap");
+
+/* ======================================================= */
+
+body {
+	font-family: "Lato", sans-serif;
+	color: rgba(66, 69, 81, 1);
+}
+
+
+
+[class*="__container"]{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
