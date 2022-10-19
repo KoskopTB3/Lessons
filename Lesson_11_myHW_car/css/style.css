@@ -203,7 +203,7 @@ linear-gradient(180deg, rgba(23,210,208,1) 0%, rgba(99,255,0,0) 75%) center /cov
 
 	.suspension__arches:hover +.suspension__wheel::before,
 	.suspension__arches:hover +.suspension__wheel::after{
-		rotate: 360deg;
+		transform: rotate(360deg);
 	}
 /* ==================================================== */
 
