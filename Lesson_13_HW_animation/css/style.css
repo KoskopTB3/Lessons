@@ -1,0 +1,827 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import "null.css";
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
+
+
+@font-face {
+	font-family: 'MK TITLE';
+	src: url('../fonts/MortalKombat-Regular.woff2') format('woff2'),
+		 	url('../fonts/MortalKombat-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+
+/* ======================================================= */
+
+body {
+	font-family: "MK TITLE", sans-serif;
+}
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+}
+
+
+
+[class*="__container"]{
+	max-width: 1920px;
+	margin: 0 auto;
+	}
+
+/* ==============TEXT================= */
+
+
+
+.page__text{
+	position: relative;
+	z-index: 1;
+}
+
+.text__title {
+	position: absolute;
+	top: 250px;
+	left: -100%;
+	font-size: 100px;
+	animation: title 2s 1 ease normal;
+	visibility: hidden;
+	opacity: 0;
+	color: rgb(168, 4, 4);
+	text-shadow: 5px 5px 20px rgb(0, 0, 0);
+}
+
+@keyframes title{
+
+	0%{
+		
+				
+	}
+	90%{
+		visibility: visible;
+		opacity: 1;
+		left: 50%;
+		transform: translate(-50%,0px);
+				
+	}
+	100%{
+		opacity: 0;
+		left: 0%;
+	}
+	}
+
+
+.text__subtitle {
+	position: absolute;
+	top: 350px;
+	left: 100%;
+	font-size: 150px;
+	animation: subtitle 2s 1 ease normal 0.3s;
+	visibility: hidden;
+	opacity: 0;
+	color: red;
+	text-shadow: 0 0 20px black;
+}
+
+@keyframes subtitle{
+
+	0%{
+		
+		
+	}
+	90%{
+		visibility: visible;
+		opacity: 1;
+		left: 50%;
+		transform: translate(-50%,0px);
+		}
+	100%{
+		opacity: 0;
+		left: 100%;
+		
+	}
+	}
+
+/* =======================final-text======================== */
+.text__subziro {
+	position: absolute;
+	top: 250px;
+	left: -100%;
+	font-size: 100px;
+	animation: text__subziro 2s 1 ease normal 19s forwards;
+	visibility: hidden;
+	opacity: 0;
+	color: rgb(168, 4, 4);
+	text-shadow: 5px 5px 20px rgb(0, 0, 0);
+}
+
+@keyframes text__subziro{
+
+	0%{
+		
+				
+	}
+	90%{
+		
+		
+		
+				
+	}
+	100%{
+		left: 50%;
+		transform: translate(-50%,0px);
+		opacity: 1;
+		visibility: visible;
+	}
+	}
+
+
+.text__win {
+	position: absolute;
+	top: 350px;
+	left: 100%;
+	font-size: 150px;
+	animation: text__win 2s 1 ease normal 19.3s forwards;
+	visibility: hidden;
+	opacity: 0;
+	color: red;
+	text-shadow: 0 0 20px black;
+}
+
+@keyframes text__win{
+
+	0%{
+		
+		
+	}
+	90%{
+		
+		}
+	100%{
+		left: 50%;
+		transform: translate(-50%,0px);
+		opacity: 1;
+		visibility: visible;
+	}
+	}
+
+
+	
+
+/* ====================BACKGROUND========================== */
+
+/* .page__background{
+	width: 100%;
+	text-align: center;
+}
+
+.page__wallpaper{
+	width: 90%;
+	height: 100%;
+} */
+
+.page{
+	position: relative;
+	overflow: hidden;
+	height: 937px;
+}
+
+.page__background {
+	width: 100%;
+	height: 937px;
+}
+
+.page__top {
+	width: 1920px;
+	height: 937px;
+	background: url('../img/top_wallpaper.webp') center / cover no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.page__lava::before {
+	content: "";
+	width: 567px;
+	height: 882px;
+	background: url('../img/meteor.png') 0 0  / 200px no-repeat;
+	position: absolute;
+	top: -100%;
+	left: 1000px;
+	animation: meteor 1s 1 ease normal 2s;
+}
+@keyframes meteor {
+	0% {
+		
+	}
+	100% {
+		top: 90%;
+		left: 300px;
+	}
+}
+.page__lava::after {
+	content: "";
+	width: 100px;
+	height: 100px;
+	/* background-color: #fff; */
+	background: url('../img/lava-rock1.png') 0 0  / 100px no-repeat;
+	position: absolute;
+	bottom: -100px;
+	left: 400px;
+	animation: lava 1.5s 1 linear normal 2.5s;
+}
+@keyframes lava {
+	0% {
+		
+		
+	}
+	
+	50% {
+		bottom: 250px;
+		
+		
+	}
+	
+	100% {
+		bottom: 0px;
+		
+		transform: rotate(360deg);
+		}
+}
+
+
+.page__bottom {
+	width: 1920px;
+	height: 937px;
+	background: url('../img/bottom_wallpaper.webp') center / cover no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* ==========================FIGHTERS================================ */
+
+.page__fighters{
+	position: relative;
+	z-index: 1;
+}
+
+.fighters__subziro {
+	width: 651px;
+	height: 859px;
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+.subziro {
+	max-width: 50%;
+	position: absolute;
+	top: 470px;
+	right: -350px ;
+	animation: subziro 12s 1 linear 1s normal forwards;
+}
+
+
+@keyframes subziro {
+	0% {
+		top: 160px;
+		right: -350px;
+		
+	}
+	
+	8% {
+		
+		
+		
+		transform: rotate(360deg);
+	}
+	10% {
+		right: 110px;
+		top: 460px;
+		transform: rotate(0deg);
+	}
+	12% {
+		right: 130px;
+		top: 460px;
+	}
+	14% {
+		right: 110px;
+		top: 460px;
+		
+	}
+	16% {
+		right: 130px;
+		top: 460px;
+		
+	}
+	18% {
+		right: 110px;
+		top: 460px;
+		
+	}
+	20% {
+		
+		
+	}
+	20% {
+		
+		
+	}
+	25% {
+		right: 110px;
+		top: 460px;
+		
+	}
+
+	30% {
+		top: 460px;
+		right: 630px;
+		transform: rotate(0deg);
+	}
+
+	33% {
+		top: 460px;
+		right: 650px;
+		transform: rotate(0deg);
+	}
+	37% {
+		top: 460px;
+		right: 630px;
+		transform: rotate(0deg);
+	}
+
+	40% {
+		transform: rotate(0deg);
+	}
+	42% {
+		top: 460px;
+		right: 630px;
+		transform: rotate(30deg);
+	}
+	50% {
+		top: 600px;
+		right: 600px;
+		transform: rotate(60deg);
+	}
+	55% {
+		top: 600px;
+		right: 600px;
+		transform: rotate(60deg);
+	}
+	60% {
+		top: 460px;
+		right: 630px;
+		transform: rotate(0deg);
+	}
+
+	70% {
+		top: 460px;
+		right: 400px;
+		
+	}
+
+	75% {
+		top: 460px;
+		right: 420px;
+		
+	}
+
+	80% {
+		top: 460px;
+		right: 400px;
+		
+	}
+
+	85% {
+		top: 460px;
+		right: 420px;
+		
+	}
+
+	90% {
+		top: 460px;
+		right: 400px;
+		
+	}
+	
+
+	100% {
+		top: 460px;
+		right: 400px;
+	}
+}
+/* ======================subzero-before================== */
+.circle{
+	content: "";
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 585px;
+	left: 1415px;
+	z-index: 10;
+	animation:circle 3s 1 linear 11.5s;
+	visibility: hidden;
+}
+@keyframes circle {
+	0% {
+		visibility: visible;
+		transform: scale(1);
+	}
+	5% {
+		transform: scale(1.5);
+	}
+	10% {
+		transform: scale(1);
+	}
+	15% {
+		transform: scale(1.5);
+	}
+	20% {
+		transform: scale(1);
+	}
+	30% {
+		transform: scale(1.5);
+	}
+	40% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.5);
+	}
+	60% {
+		transform: scale(1);
+	}
+	70% {
+		transform: scale(1.5);
+		left: 1415px;
+	}
+	100% {
+		visibility: hidden;
+		left: 820px;
+	}
+}
+/* ====================parts================ */
+
+.page__part {
+	position: relative;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	
+}
+.part {
+
+}
+.part__right-arm {
+	width: 169px;
+	height: 213px;
+	position: absolute;
+	left:0;
+	top: 0;
+}
+.right-arm {
+	width: 58%;
+	position: absolute;
+	left: 810px;
+	top: 555px;
+	animation:right-arm 1s 1 linear 17s normal forwards;
+	visibility: hidden;
+}
+@keyframes right-arm {
+	0% {
+		
+	}
+	100% {
+		transform: rotate(-90deg);
+		top: 790px;
+		visibility: visible;
+	}
+}
+
+.part__left-arm {
+	width: 133px;
+	height: 81px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.left-arm {
+	width: 58%;
+	position: absolute;
+	left: 630px;
+	top: 500px;
+	animation:left-arm 1s 1 linear 17s normal forwards;
+	visibility: hidden;
+}
+@keyframes left-arm {
+	0% {
+		
+	}
+	100% {
+		transform: rotate(90deg);
+		top: 790px;
+		visibility: visible;
+	}
+}
+
+.part__right-leg {
+	width: 234px;
+	height: 435px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.right-leg {
+	width: 58%;
+	position: absolute;
+	left: 768px;
+	top: 645px;
+	animation:right-leg 1s 1 linear 17s normal forwards;
+	visibility: hidden;
+	
+}
+@keyframes right-leg {
+	0% {
+		
+	}
+	100% {
+		transform: rotate(90deg);
+		top: 790px;
+		visibility: visible;
+	}
+}
+
+.part__left-leg {
+	width: 179px;
+	height: 368px;
+	position: absolute;
+	left: 0;
+   top: 0;
+}
+.left-leg{
+	width: 58%;
+	position: absolute;
+	left: 638px;
+   top: 661px;
+	animation:left-leg 1s 1 linear 17s normal forwards;
+	visibility: hidden;
+}
+@keyframes left-leg {
+	0% {
+		
+	}
+	100% {
+		transform: rotate(-90deg);
+		top: 790px;
+		visibility: visible;
+	}
+}
+
+.part__head {
+	width: 79px;
+	height: 117px;
+	position: absolute;
+	top: 0;
+   left: 0;
+}
+.head {
+	width: 58%;
+	position: absolute;
+	top: 460px;
+   left: 734px;
+	animation:head 1s 1 linear 17s normal forwards;
+	visibility: hidden;
+}
+@keyframes head {
+	0% {
+		
+	}
+	100% {
+		transform: rotate(90deg);
+		top: 790px;
+		visibility: visible;
+	}
+}
+
+.part__chest {
+	width: 214px;
+	height: 222px;
+	position: absolute;
+	left: 699px;
+	top: 506px;
+}
+.chest {
+	width: 58%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	animation:chest 1s 1 linear 17s normal forwards;
+	visibility: hidden;
+}
+@keyframes chest {
+	0% {
+		
+	}
+	100% {
+		transform: rotate(-90deg);
+		top: 290px;
+		visibility: visible;
+	}
+}
+
+.part__bone {
+	width: 144px;
+	height: 332px;
+	position: absolute;
+	left: 0;
+   top: 0;
+}
+.bone {
+	width: 58%;
+	position: absolute;
+	left: 724px;
+   top: 622px;
+	animation:bone 1s 1 linear 17s normal forwards;
+	visibility: hidden;
+}
+@keyframes bone {
+	0% {
+		
+	}
+	100% {
+		transform: rotate(90deg);
+		top: 790px;
+		visibility: visible;
+	}
+}
+
+
+/* ========================== */
+
+.fighters__scorpion {
+	width: 478px;
+	height: 754px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	}
+.scorpion {
+	max-width: 58%;
+	position: absolute;
+	top: 260px;
+	left: -350px;
+	animation:scorpion 14s 1 linear 1s normal forwards;
+}
+@keyframes scorpion {
+	0% {
+		top: 160px;
+		left: -350px;
+		
+	}
+	
+	8% {
+		
+		
+		
+		transform: rotate(360deg);
+	}
+	10% {
+		left: 110px;
+		top: 460px;
+		transform: rotate(0deg);
+	}
+	12% {
+		left: 130px;
+		top: 460px;
+	}
+	14% {
+		left: 110px;
+		top: 460px;
+		
+	}
+	16% {
+		left: 130px;
+		top: 460px;
+		
+	}
+	18% {
+		left: 110px;
+		top: 460px;
+		
+	}
+	20% {
+		left: 510px;
+		top: 460px;
+		
+	}
+	20% {
+		
+		transform: rotate(0deg);
+	}
+	25% {
+		left: 510px;
+		top: 460px;
+		transform: rotate(-70deg);
+	}
+
+	35% {
+		
+		left: 830px;
+		top: 300px;
+		transform: rotate(-70deg);
+	}
+	40% {
+		transform: rotate(0deg);
+		left: 630px;
+		top: 460px
+			
+	}
+	65% {
+		left: 530px;
+		top: 460px
+	}
+		
+
+	70% {
+		left: 650px;
+		top: 460px;
+		
+	}
+	72% {
+		left: 630px;
+		top: 460px;
+		
+	}
+	74% {
+		left: 650px;
+		top: 460px;
+		
+	}
+	76% {
+		left: 630px;
+		top: 460px;
+		
+	}
+	78% {
+		left: 650px;
+		top: 460px;
+		
+	}
+	80% {
+		left: 630px;
+		top: 460px;
+		
+	}
+	100% {
+		left: 630px;
+		top: 460px;
+		visibility: hidden;
+	}
+}
+
+/* ==================ice-scorpion================== */
+
+
+.fighters__ice-scorpion {
+	width: 478px;
+	height: 754px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	}
+.ice-scorpion {
+	max-width: 58%;
+	position: absolute;
+	top: 460px;
+	left: 630px;
+	z-index: 11;
+	/* animation:ice-scorpion 3s 1 linear 12s; */
+	animation:ice-scorpion 2.7s 1 linear 14.5s normal;
+	visibility: hidden;
+	opacity: 0;
+	
+}
+
+@keyframes ice-scorpion {
+	0% {
+		
+		opacity: 0.1;
+	}
+	80% {
+		
+	opacity: 1;
+	visibility: visible;
+	}
+
+	100% {
+		
+		
+		visibility: hidden;
+		}
+}
