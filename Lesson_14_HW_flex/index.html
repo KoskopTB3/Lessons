@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 14 flex</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+
+		</header>
+		<main class="page">
+			<div class="page__container">
+
+				<!-- ===============карточки============== -->
+				<div class="cards">
+					<div class="cards__column">
+						<div class="cards__item item-card">
+							<div class="item-card__image">
+								<img src="img/image.png" alt="man">
+							</div>
+							<div class="item-card__text-body body-text">
+								<a href="#" class="body-text__profession">Marketing</a>
+								<div class="body-text__topic">The Ultimate Google Ads Training Course </div>
+								<div class="body-text__cost"><span>$100</span> | by Jerome Bell</div>
+							</div>
+						</div>
+					</div>
+					<div class="cards__column">
+						<div class="cards__item item-card">
+							<div class="item-card__image">
+								<img src="img/image.png" alt="man">
+							</div>
+							<div class="item-card__text-body body-text">
+								<a href="#" class="body-text__profession">Marketing</a>
+								<div class="body-text__topic">The Ultimate Google Ads Training Course The Ultimate Google The
+									Ultimate Google Ads Training Course The Ultimate Google Ads Ads Training Course</div>
+								<div class="body-text__cost"><span>$100</span> | by Jerome Bell</div>
+							</div>
+						</div>
+					</div>
+					<div class="cards__column">
+						<div class="cards__item item-card">
+							<div class="item-card__image">
+								<img src="img/image.png" alt="man">
+							</div>
+							<div class="item-card__text-body body-text">
+								<a href="#" class="body-text__profession">123 Marketing</a>
+								<div class="body-text__topic">The Ultimate Google Ads Training Course</div>
+								<div class="body-text__cost"><span>$100</span> | by Jerome Bell</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- =========================== -->
+				<div class="width-example">
+					<div class="width-example__block block-example">
+						<div class="block-example__item">block example 1</div>
+						<div class="block-example__item">block example 2</div>
+						<div class="block-example__item">block example 3</div>
+						<div class="block-example__item">block example 4</div>
+						<a href="#" class="block-example__link">block link</a>
+					</div>
+				</div>
+				<!-- ============================== -->
+
+				<div class="reverse">
+					<div class="reverse__cards card-reverse">
+						<div class="card-reverse__image">
+							<img src="img/car.webp" alt="">
+						</div>
+						<div class="card-reverse__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore omnis
+							at magnam ipsum accusamus sed delectus? Fugit quis dicta deleniti? Iusto deleniti totam, debitis
+							iure sapiente ipsa fugiat id magni!</div>
+						<a href="#" class="card-reverse__button">button</a>
+					</div>
+					<div class="reverse__cards card-reverse">
+						<div class="card-reverse__image">
+							<img src="img/car.webp" alt="">
+						</div>
+						<div class="card-reverse__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore omnis
+							at magnam ipsum accusamus sed delectus? Fugit quis dicta deleniti? Iusto deleniti totam, debitis
+							iure sapiente ipsa fugiat id magni!</div>
+						<a href="#" class="card-reverse__button">button</a>
+					</div>
+					<div class="reverse__cards card-reverse">
+						<div class="card-reverse__image">
+							<img src="img/car.webp" alt="">
+						</div>
+						<div class="card-reverse__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore omnis
+							at magnam ipsum accusamus sed delectus? Fugit quis dicta deleniti? Iusto deleniti totam, debitis
+							iure sapiente ipsa fugiat id magni!</div>
+						<a href="#" class="card-reverse__button">button</a>
+					</div>
+					<div class="reverse__cards card-reverse">
+						<div class="card-reverse__image">
+							<img src="img/car.webp" alt="">
+						</div>
+						<div class="card-reverse__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore omnis
+							at magnam ipsum accusamus sed delectus? Fugit quis dicta deleniti? Iusto deleniti totam, debitis
+							iure sapiente ipsa fugiat id magni!</div>
+						<a href="#" class="card-reverse__button">button</a>
+					</div>
+				</div>
+				<!-- =========================================================== -->
+				<div class="flex">
+					<div class="flex__block block-flex">
+						<h2 class="block-flex__name">
+							display: flex;<br>
+							flex-direction: column;<br>
+							align-items: flex-end;</h2>
+						<div class="block-flex__body">
+							<div class="block-flex__item">1</div>
+							<div class="block-flex__item">2</div>
+							<div class="block-flex__item">3</div>
+							<div class="block-flex__item">4</div>
+						</div>
+					</div>
+					<div class="flex__block block-flex">
+						<h2 class="block-flex__name"> display: inline-flex;<br>
+							flex-direction: row-reverse;</h2>
+						<div class="block-flex__body">
+							<div class="block-flex__item">1</div>
+							<div class="block-flex__item">2</div>
+							<div class="block-flex__item">3</div>
+							<div class="block-flex__item">4</div>
+						</div>
+					</div>
+					<div class="flex__block block-flex">
+						<h2 class="block-flex__name">
+							display: flex;<br>
+							justify-content: space-between;<br>
+							height: 200px;
+						</h2>
+						<div class="block-flex__body">
+							<div class="block-flex__item">1</div>
+							<div class="block-flex__item">2 </div>
+							<div class="block-flex__item">3</div>
+							<div class="block-flex__item">4</div>
+						</div>
+					</div>
+					<div class="flex__block block-flex">
+						<h2 class="block-flex__name">
+							display: flex;<br>
+							justify-content: space-evenly;<br>
+							height: 200px;<br><br>
+							2-елемент - align-self: center;
+						</h2>
+						<div class="block-flex__body">
+							<div class="block-flex__item">1</div>
+							<div class="block-flex__item">2</div>
+							<div class="block-flex__item">3</div>
+							<div class="block-flex__item">4</div>
+						</div>
+					</div>
+					<div class="flex__block block-flex">
+						<h2 class="block-flex__name">
+							display: flex;<br>
+							justify-content: space-evenly;<br>
+							gap: 20px;<br>
+							overflow: hidden;<br><br>
+							2-елемент - flex: 1 0 200px;<br>
+							4-елемент - flex: 0 1 350px;
+						</h2>
+						<div class="block-flex__body">
+							<div class="block-flex__item">1</div>
+							<div class="block-flex__item">2</div>
+							<div class="block-flex__item">3</div>
+							<div class="block-flex__item">4</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+		<footer class="footer">
+
+
+
+		</footer>
+	</div>
+</body>
+
+</html>
