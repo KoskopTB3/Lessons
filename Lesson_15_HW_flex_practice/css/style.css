@@ -208,7 +208,7 @@ body {
 
 /* ================play======================= */
 .body-createx__play{
-	display: inline-flex;
+	display: flex;
 	align-items: center;
 	color: rgba(30, 33, 44, 1);
 	font-size: 14px;
@@ -345,6 +345,7 @@ line-height: 1.3;
 	position: absolute;
 	top: 0;
 	left: 0;
+	z-index: -1;
 }
 .decor-createx__circles {
 	width: 284px;
@@ -466,6 +467,7 @@ padding-left: 32px;
 	position: absolute;
 	top: 0;
 	left: 0;
+	z-index: -1;
 }
 .decor-who-we-are__circles {
 	width: 287px;
