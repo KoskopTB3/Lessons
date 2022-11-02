@@ -483,6 +483,6 @@ padding-left: 32px;
 	position: absolute;
 	background: url('../img/who-we-are/decor/dots.svg') 0 0  no-repeat;
 	top: 14.6%;
-	left: 4%;
+	left: -4%;
 	transform: rotate(40deg);
 }
