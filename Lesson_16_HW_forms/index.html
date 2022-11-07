@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/common.css">
+	<title>Lesson 16 forms</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<!-- <div class="header__container">
+				<a href="#" class="header__logo">
+					<img src="img/logo.svg" alt="logo">
+				</a>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a href="" class="menu__link">About Us</a>
+						</li>
+						<li class="menu__item">
+							<a href="" class="menu__link">Courses</a>
+						</li>
+						<li class="menu__item">
+							<a href="" class="menu__link">Events</a>
+						</li>
+						<li class="menu__item">
+							<a href="" class="menu__link">Blog</a>
+						</li>
+						<li class="menu__item">
+							<a href="" class="menu__link">Contacts</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__actions actions-header">
+					<a href="#" class="actions-header__button button"><span>Get consultation</span></a>
+					<a href="#" class="actions-header__registration"><span>Log in / Register</span></a>
+				</div>
+			</div> -->
+		</header>
+
+		<main class="page">
+			<!-- ============any-questions============ -->
+			<div class="page__questions-any any-questions">
+				<div class="any-questions__container">
+					<div class="any-questions__body body-any-questions">
+						<div class="body-any-questions__image">
+							<img src="img/any-q/illustration.svg" alt="image">
+						</div>
+						<div class="body-any-questions__content content-questions">
+							<div class="content-questions__title-block block-title">
+								<div class="block-title__subtitle">Any questions?</div>
+								<h2 class="block-title__title">Drop us a line</h2>
+							</div>
+
+							<form class="content-questions__form form" method="post" enctype="multipart/form-data"
+								action="https://jsonplaceholder.typicode.com/posts">
+								<div class="form__block-input">
+									<div class="form__section">
+										<label for="First-Name-01" class="form__label"><span class="form__text">First
+												Name*</span></label>
+										<input required id="First-Name-01" class="form__input" type="text" name="name"
+											placeholder="Your first name">
+									</div>
+									<div class="form__section">
+										<label for="Last-Name-01" class="form__label"><span class="form__text">Last
+												Name*</span></label>
+										<input required id="Last-Name-01" class="form__input" type="text" name="Last-name"
+											placeholder="Your last name">
+									</div>
+									<div class="form__section">
+										<label for="working-email-01" class="form__label"><span
+												class="form__text">Email*</span></label>
+										<input required id="working-email-01" class="form__input" type="email" name="Email"
+											placeholder="Your working email">
+									</div>
+									<div class="form__section">
+										<label for="phone-01" class="form__label"><span class="form__text">Phone</span></label>
+										<input required id="phone-01" class="form__input" type="tel" name="phone"
+											placeholder="Your phone number">
+									</div>
+									<div class="form__section section-textarea">
+										<label for="Message-01" class="form__label"><span
+												class="form__text">Message*</span></label>
+										<textarea id="Message-01" placeholder="Your message" autocomplete="off" name="message"
+											class="form__area"></textarea>
+									</div>
+								</div>
+								<div class="form__send">
+									<div class="form__section chekbox">
+										<input class="checkbox__input" id="chek_01" autocomplete="off" type="checkbox"
+											name="agree" value="yes">
+										<label for="chek_01" class="checkbox__label"><span class="checkbox__text">I agree
+												to receive communications from Createx Online School</span></label>
+									</div>
+									<button class="form__button button" type="submit"><span>Send message</span></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ==============practice============= -->
+			<div class="page__practice practice">
+				<div class="practice__container">
+					<div class="practice__body body">
+						<form class="body__form form" method="post" enctype="multipart/form-data"
+							action="https://jsonplaceholder.typicode.com/posts">
+							<div class="form__section-practice">
+								<label for="name-01" class="form__label"><span class="form__text">Name</span></label>
+								<input required id="name-01" class="form__input" type="text" name="name"
+									placeholder="enter your name">
+							</div>
+							<div class="form__section-practice">
+								<label for="surname-01" class="form__label"><span class="form__text">Surname</span></label>
+								<input required id="surname-01" class="form__input" type="text" name="surname"
+									placeholder="enter your surname">
+							</div>
+							<div class="form__section-practice">
+								<label for="email-01" class="form__label"><span class="form__text">E-mail</span></label>
+								<input required id="email-01" class="form__input" type="email" name="surname"
+									placeholder="enter your e-mail">
+							</div>
+							<div class="form__section-practice">
+								<label for="password-01" class="form__label"><span class="form__text">Password</span></label>
+								<input required id="password-01" class="form__input" type="password" name="password"
+									placeholder="enter your password">
+							</div>
+							<div class="form__section-practice">
+								<div class="form__title">What city do you want to visit?</div>
+								<div class="form__chekbox chekbox">
+									<div class="chekbox__item">
+										<input class="checkbox__input" id="object_01" autocomplete="off" type="checkbox"
+											name="Tokyo" value="yes">
+										<label for="object_01" class="checkbox__label"><span
+												class="checkbox__text">Tokyo</span></label>
+									</div>
+									<div class="chekbox__item">
+										<input class="checkbox__input" id="object_02" autocomplete="off" type="checkbox"
+											name="London" value="yes">
+										<label for="object_02" class="checkbox__label"><span
+												class="checkbox__text">London</span></label>
+									</div>
+									<div class="chekbox__item">
+										<input class="checkbox__input" id="object_03" autocomplete="off" type="checkbox"
+											name="Paris" value="yes">
+										<label for="object_03" class="checkbox__label"><span
+												class="checkbox__text">Paris</span></label>
+									</div>
+									<div class="chekbox__item">
+										<input class="checkbox__input" id="object_04" autocomplete="off" type="checkbox"
+											name="cities" value="yes">
+										<label for="object_04" class="checkbox__label"><span class="checkbox__text">All
+												cities</span></label>
+									</div>
+								</div>
+							</div>
+							<div class="form__section-practice">
+								<div class="form__title">Your favorite animal?</div>
+								<div class="form__radio radio">
+									<div class="radio__item">
+										<input class="radio__input" id="radio_01" autocomplete="off" type="radio" name="pet"
+											value="cat">
+										<label for="radio_01" class="radio__label"><span class="radio__text">cat</span></label>
+									</div>
+									<div class="radio__item">
+										<input class="radio__input" id="radio_02" autocomplete="off" type="radio" name="pet"
+											value="dog">
+										<label for="radio_02" class="radio__label"><span class="radio__text">dog</span></label>
+									</div>
+									<div class="radio__item">
+										<input class="radio__input" id="radio_03" autocomplete="off" type="radio" name="pet"
+											value="horse">
+										<label for="radio_03" class="radio__label"><span class="radio__text">horse</span></label>
+									</div>
+								</div>
+							</div>
+							<div class="form__section-practice">
+								<div class="form__section section-select">
+									<label for="section-01" class="section-select__text">Select option</label>
+									<select id="section-01" class="form__select" name="list">
+										<option value="1" selected>Option #1</option>
+										<option value="2">Option #2</option>
+										<option value="3">Option #3</option>
+										<option value="4">Option #4</option>
+									</select>
+								</div>
+							</div>
+							<div class="form__section-practice">
+								<label for="textarea-01" class="form__label"><span class="form__text">Input text</span></label>
+								<textarea id="textarea-01" autocomplete="off" name="message" class="form__area-1"></textarea>
+							</div>
+							<div class="form__section-practice">
+								<button class="form__button button" type="submit"><span>submit</span></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+
+
+
+
+
+		<footer class="footer">
+			<!-- <div class="example">
+				<div class="example__container">
+					<div class="example__block block-item">
+						<div class="block-item__1">I agree
+							to receive communications from Createx Online School</div>
+						<a href="" class="block-item__2">button</a>
+					</div>
+				</div>
+			</div> -->
+		</footer>
+	</div>
+</body>
+
+</html>
