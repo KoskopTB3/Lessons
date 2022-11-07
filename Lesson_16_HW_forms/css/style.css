@@ -195,7 +195,7 @@ body {
 	margin-bottom: 10px;
 }
 
-.chekbox__item:not(:last-child){
+.checkbox__item:not(:last-child){
 	margin-bottom: 10px;
 }
 .radio__item:not(:last-child){
@@ -207,7 +207,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
-}
+	}
 
 .form__select{
 	outline: 1px solid rgb(235, 88, 4);
@@ -294,12 +294,12 @@ body {
 	
 }
 
-.chekbox{
+.checkbox{
 	flex: 1 1 48%;
 	padding-right: 10px;
 	
 }
-.chekbox__item{
+.checkbox__item{
 	
 }
 
