@@ -30,7 +30,24 @@ body {
 [class*="__container"]{
 	max-width: 1260px;
 	margin: 0 auto;
-	padding: 0 15px;
+	padding: 15px 15px;
 	}
 
 /* ================================================ */
+
+.page__block:not(:last-child){
+margin-bottom: 20px;
+}
+
+ul{
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+li{
+	font-size: 20px;
+}
+li:not(:last-child){
+	margin-bottom: 5px;
+}
